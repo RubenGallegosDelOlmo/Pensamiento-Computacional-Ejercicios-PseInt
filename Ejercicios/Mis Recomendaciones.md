@@ -11,13 +11,15 @@ Algoritmo Recomendaciones
 	Leer Recomendacion
 		Segun Recomendacion Hacer //Comando Switch que evita escribir muchos SI/SINO y te da multiples Opciones para elegir
 		1:
-			Escribir " Elige la recomendacion sorpresa 1 o 2"
+			Escribir " Elige la recomendacion sorpresa 1, 2, 3, 4 o 5"
 			Leer Recomendacion
-			Si Recomendacion = 1 Entonces //Escribi el comando Si/SiNo para darle a elegir al usuario 2 opciones 
-				Escribir "1: Time for Us - Nicolas Jaar / Spotify"
-			Sino Recomendacion = 2 
-				Escribir "2: Red Like Roses - Jeff Williams, Casey Lee Williams / Spotify"
-			FinSi
+			Segun Recomendacion Hacer
+				1: Escribir "1: Time for Us - Nicolas Jaar / Spotify"
+				2: Escribir "2: Red Like Roses - Jeff Williams, Casey Lee Williams / Spotify"
+				3: Escribir "3: BOW - MFS / Spotify"
+				4: Escribir "4: More - KDA / Spotify"
+				5: Escribir "5: No Phone - Cake / Spotify"
+			FinSegun
 		2:
 			Escribir " Elige la recomendacion sorpresa 1 o 2"
 			Leer Recomendacion

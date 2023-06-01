@@ -1,4 +1,4 @@
-Algoritmo sin_titulo
+Algoritmo Dar_Calificaciones
 
     Definir Profesor, Alumno, Materia Como Caracter
     Definir Punto Como Caracter
